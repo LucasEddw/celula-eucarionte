@@ -1,0 +1,72 @@
+.celula {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border: 10px solid rgb(0, 119, 255);
+  border-radius: 50%;
+}
+.celula .citoplasma {
+  background-color: rgb(0, 204, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  width: 280px;
+}
+.celula .citoplasma .mitocondria {
+  transform: scale(0.3) rotate(70deg) translate(0px, 300px);
+  position: absolute;
+}
+.celula .citoplasma .reticulo {
+  transform: scale(0.5) rotate(230deg) translate(0px, 170px);
+  position: absolute;
+}
+.celula .citoplasma .lisossomo {
+  transform: scale(0.4) rotate(135deg) translate(0px, 235px);
+  position: absolute;
+}
+.celula .citoplasma .vacuolo {
+  transform: scale(0.5) rotate(10deg) translate(0px, 190px);
+  position: absolute;
+}
+.celula .citoplasma .complexo {
+  transform: scale(0.4) rotate(-40deg) translate(0px, 235px);
+  position: absolute;
+}
+.celula .citoplasma .nucleo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border: 30px solid rgb(255, 100, 172);
+  border-radius: 50%;
+}
+.celula .citoplasma .nucleo .nucleolo {
+  background-color: yellow;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.parede {
+  background: rgb(0, 202, 0);
+  border: 10px solid rgb(0, 150, 0);
+  border-radius: 50px;
+  height: 400px;
+  display: grid;
+  place-items: center;
+}
+.parede .celula {
+  height: 380px;
+  border-radius: 40px;
+}
+.parede .celula .citoplasma {
+  height: 360px;
+  border-radius: 30px;
+}/*# sourceMappingURL=cel.css.map */
